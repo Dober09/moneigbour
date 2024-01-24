@@ -1,0 +1,25 @@
+footer{
+    width:100vw;
+    background-color: hsla(0, 0%, 0%, 0.682);
+    text-align: center ;
+    padding: 4px 0;
+}
+
+footer p:first-of-type{
+    font-size: 20px;
+    text-transform: capitalize;
+    color: #ccc;
+    margin-bottom: 3px;
+}
+
+footer div{
+    margin-top: 10px;
+}
+footer div img{
+    margin-left: 10px;
+}
+
+footer p:not(:first-of-type){
+    /* color: rebeccapurple; */
+    font-size: 15px;
+}

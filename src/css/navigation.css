@@ -1,0 +1,19 @@
+nav{
+    /* margin-top: 10rem; */
+    position:absolute;
+    display: flex;
+    flex-direction: column;
+    background-color: hsla(0, 0%, 0%, 0.682);
+    /* visibility: hidden; */
+    left: 0;
+    width: 100%;
+    top: 2.5rem;
+}
+
+nav a{
+    margin-left: 10px;
+    color: snow;
+    padding: 5px 10px;
+    text-transform: capitalize;
+    font-size: 17px;
+}
